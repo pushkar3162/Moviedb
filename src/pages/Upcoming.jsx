@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getUpcomingMovies } from "../api/tmdb";
 import MovieCard from "../components/moviecard";
-import Pagination from "../components/Pagination";
+import Pagination from "../components/pagination";
 
 export default function Upcoming() {
   const [movies, setMovies] = useState([]);
