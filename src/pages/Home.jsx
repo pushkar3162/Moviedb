@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getPopularMovies } from "../api/tmdb";
 import MovieCard from "../components/moviecard";
-import Pagination from "../components/Pagination";
+import Pagination from "../components/pagination";
 import "../styles/Home.css";
 
 export default function Home() {
